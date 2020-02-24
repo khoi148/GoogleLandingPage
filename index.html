@@ -12,16 +12,19 @@
     <nav>
         <a class="nav-item nav-space" href="#">Gmail</a>
         <a class="nav-item nav-space" href="#">Images</a>
-        <i class="nav-space fa fa-bars fa-2x"></i>
-        <i class="nav-space fa fa-user-circle fa-2x"></i>
+        <i class="nav-space icon fa fa-bars fa-2x"></i>
+        <i class="nav-space icon fa fa-user-circle fa-2x"></i>
     </nav>
     <section>
         <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
-        <div class="button-area">
-            <input class="search-bar" type="text" autofocus/>
-            <!-- for icons position: top, left/right 100px 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" >-->
+        <div>
+            <div class="search-area">
+                <img class="glass searchbar-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png">
+    
+                <input size=18 class="search-bar" type="text"/>
+                <!-- for icons position: top, left/right 100px  -->
+                <img class="mic searchbar-icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" >
+            </div>
         </div>
         <div class="button-area">
             <button class="google-button">Google</button>
@@ -29,18 +32,30 @@
         </div>
         <div class="language-area">
             Google Offered in:
-            <a href="#">Tieng Viet</a>
-            <a href="#">Francais</a>
-            <a href="#">Chinese</a>
+            <a class="language-link" href="#">Tiếng Việt</a>
+            <a class="language-link" href="#">Français</a>
+            <a class="language-link" href="#">中文（繁體）</a>
         </div>
        
     </section>
+
     <footer>
         <div class="footer1 colorfooter">
             Vietnam
         </div>
-        <div class="footer2 colorfooter">
-            Advertising
+        <div class="footer2 colorfooter flex">
+            <div>
+                <a class="footer-link" href="#">Advertising</a>
+                <a class="footer-link" href="#">Business</a>
+                <a class="footer-link" href="#">About</a>
+                <a class="footer-link" href="#">How Search works</a>
+            </div>
+
+            <div class="termslinks">
+                <a class="footer-link" href="#">Privacy</a>
+                <a class="footer-link" href="#">Terms</a>
+                <a class="footer-link" href="#">Settings</a>
+            </div>
         </div>
     </footer>
 </body>

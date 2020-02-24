@@ -6,11 +6,15 @@ body {
 
 nav {
     text-align: right;
+    margin-right:20px;
+    margin-top:10px; 
 }
 
 .nav-item {
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 12px;
+    color:black;
+    font-size: 10px;
 }
 .nav-space {
     margin-right: 10px;
@@ -18,21 +22,53 @@ nav {
 .nav-item:hover {
     text-decoration: underline;
 }
+.icon {
+    transform: translate(1px, 5px);
+}
+
 .logo {
   height:100px;  
+  margin: 50px 0px;
 }
 
 section {
     text-align: center;
     margin-top: 100px;
 }
-
+.search-area {
+    margin-top:0px;
+    width:720px;
+    height:42px;
+    margin: 0px auto;
+    padding-top: 14px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+}
 .search-bar {
     width:600px;
-    height:40px;
-    border-radius: 30px;
-    padding-left: 40px;
-    border: 1px solid lightgray;
+    height:25px;
+    border:none;
+    font-size: 15px;
+}
+
+.searchbar-icon {
+    width:22px;
+    height:22px;
+}
+.search-bar:focus {
+    outline:none;
+}
+.glass {
+    margin-right: 10px;
+    position: relative;
+    top:3px; 
+}
+.mic {
+    position: relative;
+    top:3px; 
+} 
+.search-area:hover {
+    box-shadow: 0px 0px 3px 1px rgba(164, 163, 163, 0.75);
 }
 
 .button-area {
@@ -56,12 +92,26 @@ section {
     /* margin-right: 4px;
     text-align: justify; */
 }
-footer {
-    font-size: 17px;
-    margin-top: 270px;
+.language-link {
+    text-decoration: none;
+    color: blue;
 }
-.footer1 {
+.language-link:hover {
+    text-decoration: underline;
+}
+footer {
+    font-size: 12px;
+    margin-top: 250px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
 
+.footer1 {
     padding-left: 30px;
     padding: 10px 30px;
     border-top: 1px solid rgb(211, 211, 211);
@@ -69,8 +119,27 @@ footer {
 }
 .footer2 {
     padding: 10px 30px;
+    text-decoration: none;
 }
 
 .colorfooter {
     background-color: whitesmoke;
 }
+
+.footer-link {
+    text-decoration: none;
+    color:black;
+    margin: 0px 17px 0px 0px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.termslinks {
+    position: absolute;
+    right:0;
+}
+
+
+
